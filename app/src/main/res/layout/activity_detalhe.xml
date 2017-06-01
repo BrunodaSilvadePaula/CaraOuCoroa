@@ -8,12 +8,12 @@
     tools:context="caracoroa.cursoandroid.com.caraoucoroa.DetalheActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/caraCoroa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/moeda_cara"
+        android:src="@drawable/moeda_cara"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,6 +30,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/botao_voltar" />
+        app:layout_constraintTop_toBottomOf="@+id/caraCoroa"
+        android:src="@drawable/botao_voltar" />
 </android.support.constraint.ConstraintLayout>
